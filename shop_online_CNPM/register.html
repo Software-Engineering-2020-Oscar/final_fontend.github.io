@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!---import CSS server-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!------>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
+    <link rel="icon" href="./img/icon.gif" type="image/gif" sizes="16x16">
+    <title>CNPM</title>
+    <link href="./css/style.css" rel="stylesheet">
+</head>
+<body>
+    <!---navbar--->
+    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-branch" href="#">
+                <img src="./img/logo.png" height="50">
+            </a>
+
+        </div>
+    </nav>
+    <!----->
+    <div class="container-fluid padding">
+        <div class="row welcome text-center">
+            <div class="col-12">
+                <h1 class="display-4">Happy to join with us</h1>
+            </div>
+            <hr class="col-md-8">
+        </div>
+    </div>
+        	
+    </div>
+    <!------>
+    <div class="container-fluid padding">
+        <form class="form-edit register" action="" method="post">
+            <h1 class="text-center">Register</h1>
+            <hr>
+            <div class="row padding">
+                <div class="col-md-12 col-lg-6">
+                    <label for="username" >Username:</label>
+                    <input type="text" class="form-control" id="username" name="username" placeholder="Username" required autofocus>
+                    <label for="password" >Password:</label>
+                    <input type="password" class="form-control" id="password" name="password" placeholder="Password" required>
+                    <label for="password" >Password:</label><!--check it again-->
+                    <input type="password" class="form-control" id="password" name="password" placeholder="Password" required>
+                </div>
+                <div class="col-md-12 col-lg-6">
+                    <label for="email" >Email:</label>
+                    <input type="email" class="form-control" id="email" name="email" placeholder="Email" required>
+                    <label for="address">Address:</label>
+                    <input type="text" class="form-control" id="address" name="address" placeholder="Address" required>
+                    <label for="phone">Phone:</label>
+                    <input type="phone" class="form-control" id="phone" name="phone" placeholder="Phone" required>
+                </div>
+            </div>
+
+            <hr>
+            <div class="text-center">
+            <button type="submit" name="btn_submit" class = "btn btn-dark">Sign up</button>
+            <a class="btn btn-dark" href='login.html'>Back</a>
+            </div>
+        </form>
+    </div>
+    <!----->
+    <br>
+    <footer>
+        <div class="container">	
+            <div class="row text-center">
+                <div class="col-md-12" style="text-align: left;">
+                    <br>
+                    <h5>CNPM</h5>
+                    <hr>
+                </div>
+                <div class="col-md-12">
+                    <p>Working hours: Mon-Fri: 8am - 10pm <span style="color:rgb(201, 157, 99);">& </span>Weekend: 9am - 12am</p>
+                    <p>Hoang Hoa Tham street, Sai Gon, Vietnam</p>
+                </div>
+            </div>
+            <br>
+        </div>
+    </footer>
+    <!----->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>
